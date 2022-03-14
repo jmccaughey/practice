@@ -12,6 +12,7 @@ class SolutionTest {
     void addBinary(){
         Assertions.assertEquals("100", solution.addBinary("11", "1"));
         Assertions.assertEquals("1110", solution.addBinary("111", "111"));
+        Assertions.assertEquals("10110", solution.addBinary("111", "1111"));
     }
 
     @Test
